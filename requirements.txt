@@ -1,0 +1,9 @@
+google-cloud-bigquery
+db-dtypes
+pandas
+pyarrow
+numpy
+trafilatura
+requests
+tqdm
+langdetect

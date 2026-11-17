@@ -1,0 +1,18 @@
+== VALIDACIÓN ==
+  ok  Noticias: 78,371 | idiomas: 5 | diarios: 37
+  ok  Duplicados en id: 0
+  ok  Duplicados en url: 0
+  ok  Mismo diario y título (no vacío) repetidos: 0
+  ok  Vacíos en texto: 0
+  ok  Vacíos en fecha_final: 0
+  ok  Fechas fuera de 2021-01 a 2026-10: 0
+  ok  Fecha tomada de la página: 0% | de GDELT (la página no traía fecha válida): 100%
+  ok  Año de publicación distinto del año de GDELT: 0.0%
+  ok  Palabras por texto: mediana 560 | p95 1,651 | máx 77,627
+  ok  Total final: 78,371 de 99,350 de la meta (79%)
+
+== AVISOS (4) ==
+  !!  Títulos disponibles: solo 0% (la extracción no los guardó); la columna `titulo` queda mayormente vacía
+  !!  60 inicios de texto se repiten >= 5 veces (posible texto de plantilla/cookies). El más repetido (2527 veces): 'Basado en hechos observados y verificados directamente por nuestros periodistas '
+  !!  Idioma-año por debajo del 80% de su meta: en 2021 (47%), de 2021 (37%), es 2022 (52%), pt 2022 (15%), de 2022 (41%), en 2023 (65%), pt 2023 (79%), de 2023 (77%), en 2024 (64%), de 2024 (68%), en 2025 (65%), de 2025 (48%), en 2026 (67%), de 2026 (53%)
+  !!  27 combinaciones diario-idioma-año pesan más del 30% de su idioma-año (el tope se aplicó sobre la meta, no sobre lo entregado; máximo 80%). Ejemplos: heise.de de 2021 (80%), heise.de de 2022 (74%), heise.de de 2025 (63%), 20minutos.es es 2022 (58%), techcrunch.com en 2021 (58%)
